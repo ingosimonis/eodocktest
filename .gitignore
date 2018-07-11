@@ -1,8 +1,19 @@
 # Compiled class file
 *.class
 
+# Classpath
+.classpath
+
 # Log file
 *.log
 
-# Mac
-*.DS_Store
+# Eclipse files
+*.project
+/org.eclipse.core.resources.prefs
+/org.eclipse.jdt.core.prefs
+/org.eclipse.m2e.core.prefs
+target/*
+
+# Mac files
+.DS_Store
+/target/
